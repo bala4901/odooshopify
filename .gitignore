@@ -78,4 +78,4 @@ target/
 # Jupyter notebooks
 .ipynb_checkpoints
 
-sphinx-docs/*
+sphinx-docs/
