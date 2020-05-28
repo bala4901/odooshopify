@@ -1,4 +1,5 @@
 Odoo Shopify Connector
 ========================
 
-.. include:: ../../README.rst
+
+.. include:: ../../../README.rst
