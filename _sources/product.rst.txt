@@ -1,0 +1,9 @@
+:tocdepth: 2
+
+Product
+############
+
+Stockable Product
+------------------
+This document is the reference about the concepts of the graphical user
+interface (also known as *Tryton client* ) of the Tryton application framework.
