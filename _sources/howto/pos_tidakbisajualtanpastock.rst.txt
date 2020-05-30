@@ -1,9 +1,9 @@
 ######################################################
 Aktivasi POS utk tidak bisa jual tanpa stock
-#######################################################
+######################################################
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 2
 
 menu ``Point of Sales > Configuration > Point Of Sales``
 
