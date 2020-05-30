@@ -11,6 +11,7 @@ Welcome to Odoo Shopify Connector's documentation!
    :caption: Contents:
 
    includeme
+   howto
 
 
 

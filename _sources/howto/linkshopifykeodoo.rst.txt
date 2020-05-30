@@ -1,0 +1,54 @@
+###############################
+Link Shopify Product ke Odoo
+###############################
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+************
+Overview
+************
+
+Bila barang sudah ada di Shopify tapi odoo tidak ada, maka kita bisa melakukan step ini untuk link product shopify ke odoo.
+
+Berikut cara nya:
+
+1. :ref:`Shopify Barcode` 
+2. :ref:`Odoo Barcode`
+3. :ref:`Odoo Sync Product`
+
+.. _Shopify Barcode:
+
+1. [Shopify] Isikan barcode di section inventory
+===================================================
+
+.. figure:: ../images/s_product_barcode.png
+   :align: center
+   :class: with-border
+
+   *Figure: Shopify > Product > [Inventory]*
+
+.. _Odoo Barcode:
+
+2. [Odoo] Isikan Ean13 di Product
+===================================================
+
+.. figure:: ../images/o_product_barcode.gif
+   :align: center
+   :class: with-border
+
+   *Figure: Odoo > Product 
+
+Ean13 code isikan di sini harus sama dengan Barcode yang di isikan di Shopify
+
+.. _Odoo Sync Product:
+
+3. [Odoo] Sync Product
+=======================
+
+.. figure:: ../images/o_sync_product.gif
+   :align: center
+   :class: with-border
+
+   *Figure: Odoo > Shopify > Shopify Operations > [Shopify ==> ERP] 
