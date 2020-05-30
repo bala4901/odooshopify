@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>1.2. Link Shopify Product ke Odoo &mdash; Odoo Shopify Connector 1 documentation</title>
+  <title>2.3. Custom Collections &mdash; Odoo Shopify Connector 1 documentation</title>
   
 
   
@@ -35,8 +35,8 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="2. Shopify Module in Odoo" href="../shopifymodule.html" />
-    <link rel="prev" title="1.1. Odoo Product Upload ke Shopify" href="buatproductshopify.html" /> 
+    <link rel="next" title="&lt;no title&gt;" href="producttags.html" />
+    <link rel="prev" title="2.2. Shopify Operation" href="shopify_operation.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -86,14 +86,15 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../howto.html">1. How To ..</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="buatproductshopify.html">1.1. Odoo Product Upload ke Shopify</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">1.2. Link Shopify Product ke Odoo</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="../howto.html">1. How To ..</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../shopifymodule.html">2. Shopify Module in Odoo</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="product_odoo_shopify.html">2.1. Products</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shopify_operation.html">2.2. Shopify Operation</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">2.3. Custom Collections</a><ul class="simple">
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../shopifymodule.html">2. Shopify Module in Odoo</a></li>
 </ul>
 
             
@@ -139,9 +140,9 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../howto.html"><span class="section-number">1. </span>How To ..</a> &raquo;</li>
+          <li><a href="../shopifymodule.html"><span class="section-number">2. </span>Shopify Module in Odoo</a> &raquo;</li>
         
-      <li><span class="section-number">1.2. </span>Link Shopify Product ke Odoo</li>
+      <li><span class="section-number">2.3. </span>Custom Collections</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -158,34 +159,16 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="link-shopify-product-ke-odoo">
-<h1><span class="section-number">1.2. </span>Link Shopify Product ke Odoo<a class="headerlink" href="#link-shopify-product-ke-odoo" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="custom-collections">
+<span id="productcollections"></span><h1><span class="section-number">2.3. </span>Custom Collections<a class="headerlink" href="#custom-collections" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
-<div class="section" id="overview">
-<span id="linkshopifyproductoverview"></span><h2><span class="section-number">1.2.1. </span>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
-<p>Bila barang sudah ada di Shopify tapi odoo tidak ada, maka kita bisa melakukan step ini untuk link product shopify ke odoo.</p>
-<p>Berikut cara nya:</p>
-<ol class="arabic simple">
-<li><p><a class="reference internal" href="#shopify-barcode"><span class="std std-ref">[Shopify] Isikan barcode di section inventory</span></a></p></li>
-<li><p><a class="reference internal" href="#odoo-barcode"><span class="std std-ref">[Odoo] Isikan Ean13 di Product</span></a></p></li>
-<li><p><a class="reference internal" href="../shopifymodule/shopify_operation.html#shopifytoodoo"><span class="std std-ref">Shopify ke Odoo | Shopify ==&gt; ERP</span></a></p></li>
-</ol>
-<div class="section" id="shopify-isikan-barcode-di-section-inventory">
-<span id="shopify-barcode"></span><h3><span class="section-number">1.2.1.1. </span>[Shopify] Isikan barcode di section inventory<a class="headerlink" href="#shopify-isikan-barcode-di-section-inventory" title="Permalink to this headline">¶</a></h3>
+<p>Menu <code class="docutils literal notranslate"><span class="pre">Shopify</span> <span class="pre">&gt;</span> <span class="pre">Collection</span> <span class="pre">&gt;</span> <span class="pre">Custom</span> <span class="pre">Collection</span></code></p>
+<p>Di sini, kita bisa tambah Collection Baru dan tag collection ke <a class="reference internal" href="product_odoo_shopify.html#odooshopifysyncproducts"><span class="std std-ref">Product [Odoo] yang ready untuk Upload ke Shopify</span></a>.
+Dan Juga bisa <em>Publish</em> dan <em>Unpublish</em> collection juga.</p>
 <div class="figure align-center" id="id1">
-<img alt="../_images/s_product_barcode.png" class="with-border" src="../_images/s_product_barcode.png" />
-<p class="caption"><span class="caption-text"><em>Figure: Shopify &gt; Product &gt; [Inventory]</em></span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
-</div>
-</div>
-<div class="section" id="odoo-isikan-ean13-di-product">
-<span id="odoo-barcode"></span><h3><span class="section-number">1.2.1.2. </span>[Odoo] Isikan Ean13 di Product<a class="headerlink" href="#odoo-isikan-ean13-di-product" title="Permalink to this headline">¶</a></h3>
-<div class="figure align-center" id="id2">
-<img alt="../_images/o_product_barcode.gif" class="with-border" src="../_images/o_product_barcode.gif" />
-<p class="caption"><span class="caption-text"><em>Figure: Odoo &gt; Product</em></span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
-</div>
-<p>Ean13 code isikan di sini harus sama dengan Barcode yang di isikan di Shopify</p>
-</div>
+<img alt="../_images/collection.png" class="with-border" src="../_images/collection.png" />
+<p class="caption"><span class="caption-text"><em>Figure: Shopify &gt; Collection</em></span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 
@@ -197,10 +180,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../shopifymodule.html" class="btn btn-neutral float-right" title="2. Shopify Module in Odoo" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="producttags.html" class="btn btn-neutral float-right" title="&lt;no title&gt;" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="buatproductshopify.html" class="btn btn-neutral float-left" title="1.1. Odoo Product Upload ke Shopify" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="shopify_operation.html" class="btn btn-neutral float-left" title="2.2. Shopify Operation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

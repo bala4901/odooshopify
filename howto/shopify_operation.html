@@ -1,0 +1,281 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Shopify Operation &mdash; Odoo Shopify Connector 1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #2980B9" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Odoo Shopify Connector
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../includeme.html">Odoo Shopify Connector</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../howto.html">How To ..</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Odoo Shopify Connector</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Shopify Operation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="shopify-operation">
+<h1>Shopify Operation<a class="headerlink" href="#shopify-operation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>Menu <code class="docutils literal notranslate"><span class="pre">Shopify</span> <span class="pre">&gt;</span> <span class="pre">Processess</span> <span class="pre">&gt;</span> <span class="pre">Shopify</span> <span class="pre">Operations</span></code></p>
+</div>
+<div class="section" id="shopify-ke-odoo-shopify-erp">
+<span id="shopifytoodoo"></span><h2>Shopify ke Odoo | Shopify ==&gt; ERP<a class="headerlink" href="#shopify-ke-odoo-shopify-erp" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center" id="id3">
+<img alt="../_images/shopify_operation.png" class="with-border" src="../_images/shopify_operation.png" />
+<p class="caption"><span class="caption-text"><em>Figure: Shopify &gt; Processess &gt; Shopify Operations</em></span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Fields</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Import Orders</p></td>
+<td><p>Import orderan dari Shopify</p></td>
+</tr>
+<tr class="row-odd"><td><p>Import Collections</p></td>
+<td><p>Import Collections dan Tags dari Shopify</p></td>
+</tr>
+<tr class="row-even"><td><p>Sync Product</p></td>
+<td><p>Sync Product yang ada di Shopify dengan <a class="reference internal" href="product_odoo_shopify.html#odooshopifysyncproducts"><span class="std std-ref">Product [Odoo] yang ready untuk Upload ke Shopify</span></a>
+dan juga untuk Sync barang Shopify yang tidak ada di odoo dengan
+catatan <code class="docutils literal notranslate"><span class="pre">Barcode</span></code> di <em>Shopify</em> dan <code class="docutils literal notranslate"><span class="pre">Ean13</span></code> di <em>Odoo</em> harus sama.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="odoo-ke-shopify-odoo-shopify">
+<span id="odootoshopify"></span><h2>Odoo ke Shopify | Odoo ==&gt; Shopify<a class="headerlink" href="#odoo-ke-shopify-odoo-shopify" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center" id="id4">
+<img alt="../_images/shopify_operation_toshopify.png" class="with-border" src="../_images/shopify_operation_toshopify.png" />
+<p class="caption"><span class="caption-text"><em>Figure: Shopify &gt; Processess &gt; Shopify Operations</em></span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Fields</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Export Products</p></td>
+<td><p>Upload <span class="xref std std-ref">_OdooShopifySyncProducts</span> ke Shopify</p></td>
+</tr>
+<tr class="row-odd"><td><p>Publish Product</p></td>
+<td><p>Barang yang di upload ke Shopify dan Ready untuk di Publish untuk show ke customer di online</p></td>
+</tr>
+<tr class="row-even"><td><p>Update Product</p></td>
+<td><p>Untuk update product odoo ke shopify</p></td>
+</tr>
+<tr class="row-odd"><td><p>Update Stock</p></td>
+<td><p>Update Inventory odoo ke shopify</p></td>
+</tr>
+<tr class="row-even"><td><p>Update Price</p></td>
+<td><p>Update Price odoo ke shopify</p></td>
+</tr>
+<tr class="row-odd"><td><p>Update Order Status</p></td>
+<td><p>Update Order Fulfilment ke Shopify</p></td>
+</tr>
+<tr class="row-even"><td><p>Export Collections</p></td>
+<td><p>Upload <a href="#id1"><span class="problematic" id="id2">:red:`ProductCollections`</span></a> ke shopify</p></td>
+</tr>
+<tr class="row-odd"><td><p>Update Collection</p></td>
+<td><p>Update collection ke shopify</p></td>
+</tr>
+<tr class="row-even"><td><p>Publish Collection</p></td>
+<td><p>Untuk publish collection jadi bisa di lihat oleh customer di online</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, PT Solusi Otomasi Servis
+      <span class="lastupdated">
+        Last updated on May 30, 2020.
+      </span>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

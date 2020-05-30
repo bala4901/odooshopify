@@ -3,8 +3,10 @@ Link Shopify Product ke Odoo
 ###############################
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
    :caption: Contents:
+
+.. _LinkShopifyProductOverview:
 
 ************
 Overview
@@ -16,11 +18,11 @@ Berikut cara nya:
 
 1. :ref:`Shopify Barcode` 
 2. :ref:`Odoo Barcode`
-3. :ref:`Odoo Sync Product`
+3. :ref:`ShopifyToOdoo`
 
 .. _Shopify Barcode:
 
-1. [Shopify] Isikan barcode di section inventory
+[Shopify] Isikan barcode di section inventory
 ===================================================
 
 .. figure:: ../images/s_product_barcode.png
@@ -31,24 +33,13 @@ Berikut cara nya:
 
 .. _Odoo Barcode:
 
-2. [Odoo] Isikan Ean13 di Product
+[Odoo] Isikan Ean13 di Product
 ===================================================
 
 .. figure:: ../images/o_product_barcode.gif
    :align: center
    :class: with-border
 
-   *Figure: Odoo > Product 
+   *Figure: Odoo > Product* 
 
 Ean13 code isikan di sini harus sama dengan Barcode yang di isikan di Shopify
-
-.. _Odoo Sync Product:
-
-3. [Odoo] Sync Product
-=======================
-
-.. figure:: ../images/o_sync_product.gif
-   :align: center
-   :class: with-border
-
-   *Figure: Odoo > Shopify > Shopify Operations > [Shopify ==> ERP] 
