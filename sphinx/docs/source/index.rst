@@ -8,9 +8,11 @@ Welcome to Odoo Shopify Connector's documentation!
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
    :caption: Contents:
 
-   includeme
+   howto
+   shopifymodule
 
 
 
