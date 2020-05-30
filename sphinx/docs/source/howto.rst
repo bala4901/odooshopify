@@ -9,4 +9,5 @@ How To ..
 
    howto/buatproductshopify
    howto/linkshopifykeodoo
+   howto/pos_tidakbisajualtanpastock
 
